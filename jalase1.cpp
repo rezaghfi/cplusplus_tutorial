@@ -19,11 +19,12 @@ int main1(){
     int z = a + b;
     cout << z;
 
-    // string concat
-    string str1 = "\nhello";
-    string str2 = " reza";
-    string str3 = str1 + str2;
-    cout << str3;
+    // single line comment
+    /*
+     * multiple line comment
+     * */
+
+
 
     // data type
     int number1 = 1;
@@ -46,12 +47,21 @@ int main1(){
     number1--;
     number1 = 5;
     // = -= += *=
-    number1 += 5;
+    number1 += 5; // number1 = number2 + 5;
     number1 *= 6;
 
     // < > == != ==
     bool flag;
+    flag = (a > b);
+    flag = (a < b);
+    flag = (a == b);
+    flag = (a != b);
 
+    // && || !
+
+    flag = !(a < b);
+    flag = (a == b && a > b);
+    flag = (a == b || a > b);
 
 
     return 0;

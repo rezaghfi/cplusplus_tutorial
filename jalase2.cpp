@@ -1,53 +1,33 @@
 #include <iostream>
 using namespace std;
+#include <cmath>
 
 int main(){
-    // first code in c++
-    // variable
-    // identify variable
-    int i = 0;
-    float f = 12.3;
-    double d = 12.3434;
-    char c = 's';
-    string str = "reza";
-    // output
-    cout << f;
-
-    // operator
-    int a = 10;
-    int b = 20;
-    int z = a + b;
-    cout << z;
-
+    // string
     // string concat
     string str1 = "\nhello";
     string str2 = " reza";
     string str3 = str1 + str2;
     cout << str3;
 
-    // data type
-    int number1 = 1;
-    float number2 = 2;
-    double number3 = 23.343434;
-    byte number4;
-    short number5 = 123;
-    long number6 = 123345;
-    bool boolean = true;
-    char character = 'c';
-    string text = "cccc";
+    string x = "10";
+    string y = "20";
+    string z = x + y;
+    cout << z;
+    cout << "the length of x + y is:" << z.length();
+    cout << z[0];
 
-    // operators
-    // + - * / ++ -- %
-    number1 = 3;
-    number1 = 3 + 5;
-    number1 = number1 * 2;
-    number1 = a / b;
-    number1++;
-    number1--;
-    number1 = 5;
-    // = -= += *=
+    // user input
+    cout << "type your first name:";
+    cin >> z;
+    cout << "Your name is:";
+    // Type your first name :
 
+    // std namespace
+    std::string greeting = "hello";
+    std::cout << greeting;
 
-
+    // Math library
+    max(1,3);
     return 0;
 }
