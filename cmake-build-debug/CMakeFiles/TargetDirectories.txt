@@ -1,3 +1,3 @@
-D:/code/cplusplus_tutorial/cmake-build-debug/CMakeFiles/cplusplus_tutorial.dir
-D:/code/cplusplus_tutorial/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/code/cplusplus_tutorial/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/CMakeFiles/cplusplus_tutorial.dir
+C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/CMakeFiles/rebuild_cache.dir

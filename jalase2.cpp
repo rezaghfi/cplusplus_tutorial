@@ -2,7 +2,7 @@
 using namespace std;
 #include <cmath>
 
-int main(){
+int function2(){
     // string
     // string concat
     string str1 = "\nhello";
@@ -29,5 +29,7 @@ int main(){
 
     // Math library
     max(1,3);
+
+
     return 0;
 }

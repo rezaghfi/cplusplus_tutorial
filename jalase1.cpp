@@ -1,10 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int main1(){
+int function1(){
     // first code in c++
     // variable
     // identify variable
+    // primitive / buit-in datatypes
+    // Derived datattypes
     int i = 0;
     float f = 12.3;
     double d = 12.3434;
@@ -27,6 +29,7 @@ int main1(){
 
 
     // data type
+    // identifier variable
     int number1 = 1;
     float number2 = 2;
     double number3 = 23.343434;
@@ -38,26 +41,26 @@ int main1(){
     string text = "cccc";
 
     // operators
-    // + - * / ++ -- %
+    // + - * / ++ -- % عملگرهای ریاضیاتی
     number1 = 3;
     number1 = 3 + 5;
     number1 = number1 * 2;
     number1 = a / b;
-    number1++;
-    number1--;
+    number1++; // number1 = number1 + 1
+    number1--; // number1 = number1 - 1
     number1 = 5;
-    // = -= += *=
-    number1 += 5; // number1 = number2 + 5;
+    // = -= += *= عملگر های انتسابی
+    number1 += 5; // number1 = number1 + 5;
     number1 *= 6;
 
-    // < > == != ==
+    // < > == != == <= >= عملگرهای مقایسه ای
     bool flag;
     flag = (a > b);
     flag = (a < b);
     flag = (a == b);
     flag = (a != b);
 
-    // && || !
+    // && || ! عملگر های منطقی 
 
     flag = !(a < b);
     flag = (a == b && a > b);
