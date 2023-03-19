@@ -1,4 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Server-B\Desktop\cpluscplus_tutorial
--- Configuring done (1.8s)
--- Generating done (0.2s)
--- Build files have been written to: C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug

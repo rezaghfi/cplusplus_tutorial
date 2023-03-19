@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Server-B/Desktop/cpluscplus_tutorial/jalase1.cpp" "CMakeFiles/cplusplus_tutorial.dir/jalase1.cpp.obj" "gcc" "CMakeFiles/cplusplus_tutorial.dir/jalase1.cpp.obj.d"
-  "C:/Users/Server-B/Desktop/cpluscplus_tutorial/jalase2.cpp" "CMakeFiles/cplusplus_tutorial.dir/jalase2.cpp.obj" "gcc" "CMakeFiles/cplusplus_tutorial.dir/jalase2.cpp.obj.d"
-  "C:/Users/Server-B/Desktop/cpluscplus_tutorial/jalase3.cpp" "CMakeFiles/cplusplus_tutorial.dir/jalase3.cpp.obj" "gcc" "CMakeFiles/cplusplus_tutorial.dir/jalase3.cpp.obj.d"
+  "D:/code/simpleCodes/cpluscplus_tutorial/jalase1.cpp" "CMakeFiles/cplusplus_tutorial.dir/jalase1.cpp.obj" "gcc" "CMakeFiles/cplusplus_tutorial.dir/jalase1.cpp.obj.d"
+  "D:/code/simpleCodes/cpluscplus_tutorial/jalase2.cpp" "CMakeFiles/cplusplus_tutorial.dir/jalase2.cpp.obj" "gcc" "CMakeFiles/cplusplus_tutorial.dir/jalase2.cpp.obj.d"
+  "D:/code/simpleCodes/cpluscplus_tutorial/jalase3.cpp" "CMakeFiles/cplusplus_tutorial.dir/jalase3.cpp.obj" "gcc" "CMakeFiles/cplusplus_tutorial.dir/jalase3.cpp.obj.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

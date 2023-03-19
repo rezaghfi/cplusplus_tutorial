@@ -8,90 +8,90 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug"/>
+				<Option working_dir="D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cplusplus_tutorial">
-				<Option output="C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/cplusplus_tutorial.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug"/>
+				<Option output="D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/cplusplus_tutorial.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 cplusplus_tutorial"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 cplusplus_tutorial"/>
+					<CompileFile command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cplusplus_tutorial/fast">
-				<Option output="C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/cplusplus_tutorial.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug"/>
+				<Option output="D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/cplusplus_tutorial.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 cplusplus_tutorial/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 cplusplus_tutorial/fast"/>
+					<CompileFile command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug"/>
+				<Option working_dir="D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug"/>
+				<Option working_dir="D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Server-B/Desktop/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/JetBrains/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Server-B/Desktop/cpluscplus_tutorial/jalase1.cpp">
+		<Unit filename="D:/code/simpleCodes/cpluscplus_tutorial/jalase1.cpp">
 			<Option target="cplusplus_tutorial"/>
 		</Unit>
-		<Unit filename="C:/Users/Server-B/Desktop/cpluscplus_tutorial/jalase2.cpp">
+		<Unit filename="D:/code/simpleCodes/cpluscplus_tutorial/jalase2.cpp">
 			<Option target="cplusplus_tutorial"/>
 		</Unit>
-		<Unit filename="C:/Users/Server-B/Desktop/cpluscplus_tutorial/jalase3.cpp">
+		<Unit filename="D:/code/simpleCodes/cpluscplus_tutorial/jalase3.cpp">
 			<Option target="cplusplus_tutorial"/>
 		</Unit>
-		<Unit filename="C:/Users/Server-B/Desktop/cpluscplus_tutorial/CMakeLists.txt">
+		<Unit filename="D:/code/simpleCodes/cpluscplus_tutorial/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
