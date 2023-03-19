@@ -56,10 +56,10 @@ RM = "H:\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\code\simpleCodes\cpluscplus_tutorial
+CMAKE_SOURCE_DIR = D:\code\simpleCodes\cplusplus_tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\code\simpleCodes\cpluscplus_tutorial\cmake-build-debug
+CMAKE_BINARY_DIR = D:\code\simpleCodes\cplusplus_tutorial\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\simpleCodes\cpluscplus_tutorial\cmake-build-debug\CMakeFiles D:\code\simpleCodes\cpluscplus_tutorial\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\simpleCodes\cplusplus_tutorial\cmake-build-debug\CMakeFiles D:\code\simpleCodes\cplusplus_tutorial\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\simpleCodes\cpluscplus_tutorial\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\simpleCodes\cplusplus_tutorial\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -200,6 +200,30 @@ jalase3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cplusplus_tutorial.dir\build.make CMakeFiles/cplusplus_tutorial.dir/jalase3.cpp.s
 .PHONY : jalase3.cpp.s
 
+jalase6.obj: jalase6.cpp.obj
+.PHONY : jalase6.obj
+
+# target to build an object file
+jalase6.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cplusplus_tutorial.dir\build.make CMakeFiles/cplusplus_tutorial.dir/jalase6.cpp.obj
+.PHONY : jalase6.cpp.obj
+
+jalase6.i: jalase6.cpp.i
+.PHONY : jalase6.i
+
+# target to preprocess a source file
+jalase6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cplusplus_tutorial.dir\build.make CMakeFiles/cplusplus_tutorial.dir/jalase6.cpp.i
+.PHONY : jalase6.cpp.i
+
+jalase6.s: jalase6.cpp.s
+.PHONY : jalase6.s
+
+# target to generate assembly for a file
+jalase6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cplusplus_tutorial.dir\build.make CMakeFiles/cplusplus_tutorial.dir/jalase6.cpp.s
+.PHONY : jalase6.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -218,6 +242,9 @@ help:
 	@echo ... jalase3.obj
 	@echo ... jalase3.i
 	@echo ... jalase3.s
+	@echo ... jalase6.obj
+	@echo ... jalase6.i
+	@echo ... jalase6.s
 .PHONY : help
 
 

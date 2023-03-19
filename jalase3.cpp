@@ -15,7 +15,7 @@ int func2(){
    return 1; 
 }
 
-int main(){
+int main3(){
 //    // if statement
 //    if(true){
 //        cout << "hello";

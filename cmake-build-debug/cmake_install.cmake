@@ -1,4 +1,4 @@
-# Install script for directory: D:/code/simpleCodes/cpluscplus_tutorial
+# Install script for directory: D:/code/simpleCodes/cplusplus_tutorial
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/code/simpleCodes/cplusplus_tutorial/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
