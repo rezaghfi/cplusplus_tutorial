@@ -1,3 +1,0 @@
-D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/CMakeFiles/cplusplus_tutorial.dir
-D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/code/simpleCodes/cpluscplus_tutorial/cmake-build-debug/CMakeFiles/rebuild_cache.dir

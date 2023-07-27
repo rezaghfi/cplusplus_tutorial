@@ -1,71 +1,60 @@
 #include <iostream>
 using namespace std;
 
-int function1(){
+int main()
+{
+    cout << "-----------jalase1: variable datatypes----------" << endl;
+    // single line comment
+    /*
+     * multiple line comment
+     * */
     // first code in c++
-    // variable
     // identify variable
-    // primitive / buit-in datatypes
-    // Derived datattypes
     int i = 0;
     float f = 12.3;
     double d = 12.3434;
     char c = 's';
     string str = "reza";
-    // output
-    cout << f;
+    // output function from iostream library
+    cout <<"float numbers is = " << f << endl;
 
     // operator
     int a = 10;
     int b = 20;
     int z = a + b;
-    cout << z;
+    cout << "10 + 20 = " << z << endl;
 
-    // single line comment
-    /*
-     * multiple line comment
-     * */
-
-
-
-    // data type
-    // identifier variable
+    // data type  1-primitive datatypes   2-Derived datattypes
     int number1 = 1;
     float number2 = 2;
     double number3 = 23.343434;
     byte number4;
     short number5 = 123;
     long number6 = 123345;
+    long int number7 = 13334545466;
     bool boolean = true;
     char character = 'c';
     string text = "cccc";
+    // unsinged integer
+    unsigned int u = -1;
 
-    // operators
-    // + - * / ++ -- % عملگرهای ریاضیاتی
-    number1 = 3;
-    number1 = 3 + 5;
-    number1 = number1 * 2;
-    number1 = a / b;
-    number1++; // number1 = number1 + 1
-    number1--; // number1 = number1 - 1
-    number1 = 5;
-    // = -= += *= عملگر های انتسابی
-    number1 += 5; // number1 = number1 + 5;
-    number1 *= 6;
+    // unsinged character
+    // short int
+    short int sh = 3;
+    // long int
+    long int lo = 4;
+    // unsigned long int
+    unsigned long int ulong = 4;
+    cout << "long int variable= " << ulong << endl;
+    // void
+    char s1[10] = "reza";
+    char s2[10] = "reza";
 
-    // < > == != == <= >= عملگرهای مقایسه ای
-    bool flag;
-    flag = (a > b);
-    flag = (a < b);
-    flag = (a == b);
-    flag = (a != b);
-
-    // && || ! عملگر های منطقی 
-
-    flag = !(a < b);
-    flag = (a == b && a > b);
-    flag = (a == b || a > b);
-
+    int arr[10];
+    int arr2[19] = {1, 2, 3, 4};
+    int array[] = {1, 2, 3, 4, 5};
+    cout << "first index of array is array[0]= " << array[0] << endl;
+    cout << "last index of array is array[4]= " << array[4] << endl;
 
     return 0;
 }

@@ -1,3 +1,0 @@
-"H:\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cplusplus_tutorial.dir/objects.a
-"H:\JetBrains\CLion 2022.3.1\bin\mingw\bin\ar.exe" qc CMakeFiles\cplusplus_tutorial.dir/objects.a @CMakeFiles\cplusplus_tutorial.dir\objects1.rsp
-"H:\JetBrains\CLion 2022.3.1\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\cplusplus_tutorial.dir/objects.a -Wl,--no-whole-archive -o cplusplus_tutorial.exe -Wl,--out-implib,libcplusplus_tutorial.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cplusplus_tutorial.dir\linklibs.rsp

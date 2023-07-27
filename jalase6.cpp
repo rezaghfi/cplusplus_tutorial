@@ -56,7 +56,7 @@ int sum2(int k){
 }
 // function
 int main(){
-    /*
+    
     // create instance of Animal
     Animal dog;
     dog.soundAnimal();
@@ -81,7 +81,7 @@ int main(){
     cow.soundAnimal();
     // return secrectname private field
     cout << cow.getSecretName();
-    */
+    
 
     // call function
     cout << sum(5) << endl;

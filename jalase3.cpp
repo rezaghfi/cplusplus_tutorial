@@ -1,163 +1,115 @@
 //
-// Created by Server-B on ۱۳/۰۳/۲۰۲۳.
+// Created by reza gholamalitabar on ۱۳/۰۳/۲۰۲۳.
 //
 #include <iostream>
+#include <math.h>
 
+// use namespace std
 using namespace std;
 
-// void is nothing to return
+// global scope
+int g = 1;
 
-void myFunction(){
-
+// define function
+// function is reusable code
+void myFunction()
+{
 }
 
-int func2(){
-   return 1; 
+void f1()
+{
+    // local scope
+    int i = 1;
+    cout << i << endl;
+    cout << g;
+    cout << "i am is function body" << endl;
 }
 
-int main3(){
-//    // if statement
-//    if(true){
-//        cout << "hello";
-//    }
-//
-//    // if else
-//
-//    int a = 5;
-//
-//    if(a > 5){
-//        cout << "a is bigger than 5";
-//    }else{
-//        cout << "a equal or smaller than 5";
-//    }
-//
-//    // if else if else
-//
-//    if(a > 5){
-//        cout << "bigger";
-//    }else if(a == 5){
-//        cout << "equal";
-//    }
-//
-//    // if
-//    if (a > 5){
-//        cout << "bigger";
-//    }
-//
-//    if(a == 5) cout << "equal";
-//
-//
-//    a = 4;
-//
-//    // if else if
-//    if(a < 5){
-//        cout << "smaller";
-//    }else if(a <= 5){
-//        cout << "equal or smaller";
-//    }
-//
-//    if (a < 5){
-//        cout << "smaller";
-//    }
-//
-//    if(a <= 5) cout << "equal or smaller";
-//
-//    // if else if else
-//
-//    int day = 0;
-//
-//    cin >> day;
-//    // if o to 6 is correct else wrong
-//    if(day == 0) cout << "sat";
-//    else if(day == 1) cout<<  "sun";
-//    else if(day == 2) cout << "mon";
-//    else if(day == 3) cout << "tue";
-//    else if(day == 4) cout <<"wend";
-//    else if(day == 5) cout <<"thurs";
-//    else if(day == 6) cout <<"fri";
-//    else cout <<"wrong";
-//
-//    // switch
-//    switch(day){
-//        case 0:
-//            cout << "sat";
-//            break;
-//        case 1:
-//            cout << "sun";
-//            break;
-//        case 2:
-//            cout << "mon";
-//            break;
-//        case 3:
-//            cout << "tue";
-//            break;
-//        case 4:
-//            cout << "wend";
-//            break;
-//        case 5:
-//            cout << "thurs";
-//            break;
-//        case 6:
-//            cout << "fri";
-//            break;
-//        default:
-//            cout << "wrong";
-//            break;
-//    }
-//
-//    // if
-//
-//    int height;
-//    cin >> height;
-//    if(height > 175) cout << "tall";
-//    else if ( height >= 150 ) cout<< "avg";
-//    else if ( height > 0) cout << "small";
-//    else "wrong";
-//
-//    int h;
-//    cout << "1 is for 175 to up, 2 is 150 to 175 , 3 is 1 to 150";
-//    cin >> h;
-//    switch(h){
-//        case 1:
-//            cout << "tall";
-//            break;
-//        case 2:
-//            cout << "avg";
-//            break;
-//        case 3:
-//            cout << "small";
-//            break;
-//        default:
-//            cout << "wrong";
-//            //break;
-//    }
+int function1()
+{
 
-    // for statement
-    // string str  =  "hello";
+    return 1;
+}
 
-    // for(int i=0; i < 10; i++){
-    //     cout << "hello";
-    // }
+int f2()
+{
+    int x = 1, y = 5;
+    // دستور بازگشت در تابع
+    return x + y;
+}
+// ورودی های یک تابع
+int jam(int x, int y)
+{
+    return x + y;
+}
 
-    // // while statement 
+int zarb(int x, int y)
+{
+    return x * y;
+}
 
-    // int i = 0;
-    // while(i<10){
-    //     cout << "hello";
-    //     i++;
-    // }
+void useString(){
+	string firstname = "reza";
+	string lastname = "gholamalitabar";
+	string fullname = firstname + " " + lastname;
+	cout << fullname;
+	// return 0; compile error 
+}
 
-    // // do while
-    // i = 0;
-    // do{
-    //     cout << "hello";
-    //     i++;
-    // }while(i < 10);
+void showNumber(int number){
+	cout << number << endl;	
+}
 
-    // call function 
-    func2();
+void cinFunction(){
+		// جمع دو تا عدد
+	// cin function
+	// local scope
+	int number1 , number2, result;
+	cout << "enter number1: ";
+	cin >> number1;
+	cout << "enter number2: ";
+	cin >> number2;
+	result = number1 + number2;
+	cout << "number1 + number2 = " << result << endl;
+}
+
+void math(){
+	// صدا زدن تابع ریاضیاتی
+	cout << "absolute of -5: " << abs(-5) << endl;
+	cout << "floor of 3.78 " << floor(3.78)<< endl;
+	cout << "which bigger bet 2 and 3: " << fmax(2,3)<< endl;
+	cout << "power of 2 to -2: " << pow(2,-2)<< endl;
+	char c = '1';
+	string str = "1";
+	int i = 1;
+}
+
+//
+
+int time(int h, int m, int s){
+	return h * 3600 + 60 * m + s;
 }
 
 
+// in c or c++ program is start form main function
+int main()
+{
+    cout << "-----------jalase3: function and scopes ----------" << endl;
 
+    int l = 3;
+    cout << "g is global variable becuase define in global = " << g << endl;
+    cout << "l is local variable becuase define in global = " << l << endl;
 
+    // call function
+    myFunction();
+    f1();
+    cout << "print function1 return value in main= " << function1() << endl;
+    cout << "print f2 return value in main= " << f2() << endl;
+    cout << "print zarb 2 ,4 return value in main= " << zarb(2, 4) <<endl;
+    cout << "print jam 3 , 4 return value in main= " << jam(3,4) << endl;
+    useString();
+    showNumber(15);
+    cinFunction();
+    time(2,3,4);
+    math();
+}
