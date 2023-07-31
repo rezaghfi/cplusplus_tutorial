@@ -16,7 +16,7 @@ int main()
     char c = 's';
     string str = "reza";
     // output function from iostream library
-    cout <<"float numbers is = " << f << endl;
+    cout << "float numbers is = " << f << endl;
 
     // operator
     int a = 10;
@@ -31,7 +31,7 @@ int main()
     byte number4;
     short number5 = 123;
     long number6 = 123345;
-    long int number7 = 13334545466;
+    long long int number7 = 133345454;
     bool boolean = true;
     char character = 'c';
     string text = "cccc";

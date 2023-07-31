@@ -2,90 +2,82 @@
 
 using namespace std;
 
-class Animal{
-    // field
-// access serectName is private
-private: string secretName;
-    // access of field public
-public: string name;
 
-    // static field
-    bool static live;
-    // method
-    // access of method public
-public: void soundAnimal() {
-        cout << this->name << " sound" << endl;
+int max(int input[10])
+{
+  int m = 0;
+  for (int i = 0; i < 10; i++)
+  {
+    if (input[i] > m)
+    {
+      m = input[i];
     }
-
-    // static method
-    void static staicMethod(){
-        cout << "this is static method" << endl;
-    }
-    // constructor method without input prameter
-    Animal(){
-        cout << "it is constractor without prameter";
-    }
-
-    // constructor with two input parameters
-    Animal(string name, string secret = "secret"){
-        cout << "it is constructor with two parameters" << endl;
-        this->name = name;
-        this->secretName = secret;
-    }
-
-    string getSecretName(){
-        return this->secretName;
-    }
-};
-
-// define fuction
-int sum(int k){
-    int sum = 0;
-    // i++ --> i = i + 1
-    // i +=2 --> i = i + 2
-    for(int i=1; i<=k;i++){
-        sum  = sum + i;
-    }
-    return sum;
+  }
+  return m;
 }
 
-int sum2(int k){
-    //recursive
-    if(k==1) return 1;
-    return k + sum2(k-1);
+int max2(int input[10])
+{
+  int m = 0, m2 = 0;
+  for(int i=0; i < 10; i++){
+    if(input[i] > m){
+      m2 = m;
+      m = input[i];
+
+    }else if(input[i] > m2){
+      m2 = input[i];
+    }
+  }
+  return m2;
 }
-// function
-int main(){
-    
-    // create instance of Animal
-    Animal dog;
-    dog.soundAnimal();
-    // create instance of Animal
-    Animal cat;
-    cat.name = "persionCat";
-    cat.soundAnimal();
-    dog.name = "jessy";
-    dog.soundAnimal();
-    //dog.secretName = "jan"; it is error for private
-    //Animal::live = true;
-    //cout << Animal::live;
-    Animal::staicMethod();
-    dog.staicMethod();
-    cat.staicMethod();
-    // create instance of Animal
 
-    Animal snake("harry", "harryjon");
-    snake.soundAnimal();
+int countMax(int input[10]){
+  int m = max(input);
+  int counter = 0;
+  for(int i = 0; i < 10; i++){
+    if(input[i] == m){
+      counter++;
+    }
+  }
+  return counter;
+}
 
-    Animal cow("jack");
-    cow.soundAnimal();
-    // return secrectname private field
-    cout << cow.getSecretName();
-    
+float maxFailed(float hasan[]){
 
-    // call function
-    cout << sum(5) << endl;
-    cout << sum2(5) << endl;
+  float m = 0;
+  for (int i = 0; i < 10; i++){
+    if(hasan[i] < 12 && hasan[i] > m){
+        m = hasan[i];
+    }
+  }
+  return m;
+}
 
+float averageUP15(float avg[10]){
+  float average = 0, sum=0, counter;
+  for (int i=0;i< 10;i++){
+    if(avg[i]>15){
+      sum = sum + avg[i];
+      counter++;
+    }
+  }
+  average = sum / counter;
+  return average;
+}
 
+int main()
+{
+  int input[10] = {10,5,23,13,23,15,17,2,3,4};
+  cout << "max = "<< max(input) << endl;
+
+  // second max in array
+  cout << "max2 = " << max2(input) << endl;
+
+  cout << "count of max= "<< countMax(input) << endl;
+
+  float input2[10]  = {12.1, 11.4,11.99, 12, 14,12,19,20,1,2};
+  cout << "max Failed average= " << maxFailed(input2) << endl;
+
+  cout << "average of up 15= " << averageUP15(input2) << endl;
+  return 0;
 }
