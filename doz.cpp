@@ -56,7 +56,7 @@ void player_turn(){
         case 8: row=2; column=1; break;
         case 9: row=2; column=2; break;
         default:
-            cout<<"Invalid Move";
+            cout<<"Invalid Move\n";
     }
 
     if(turn == 'X' && board[row][column] != 'X' && board[row][column] != 'O'){
@@ -71,7 +71,7 @@ void player_turn(){
         turn = 'X';
     }else {
         //if input position already filled
-        cout<<"Box already filled!n Please choose another!!nn";
+        cout<<"Box already filled!n Please choose another!!nn\n";
         player_turn();
     }
     /* Ends */
@@ -80,7 +80,7 @@ void player_turn(){
 
 //Function to get the game status e.g. GAME WON, GAME DRAW GAME IN CONTINUE MODE
 
-bool gameover(){
+bool play(){
     //checking the win for Simple Rows and Simple Column
     for(int i=0; i<3; i++)
         if(board[i][0] == board[i][1] && board[i][0] == board[i][2] || board[0][i] == board[1][i] && board[0][i] == board[2][i])
@@ -106,19 +106,23 @@ bool gameover(){
 
 int main()
 {
-    cout<<"\tT I C K -- T A C -- T O E -- G A M E\n";
+    system("Color E4");
+    cout<<"\tDOZ G A M E\n";
     cout<<"\tFOR 2 PLAYERS\n";
-    while(gameover()){
+    while(play()){
         display_board();
         player_turn();
-        gameover();
+        play();
     }
+    display_board();
     if(turn == 'X' && draw == false){
-        cout<<"\n\tCongratulations!Player with 'X' has won the game";
+        cout<<"\n\tCongratulations!Player with 'O' has won the game\n";
     }
     else if(turn == 'O' && draw == false){
-        cout<<"\n\tCongratulations!Player with 'O' has won the game";
+        cout<<"\n\tCongratulations!Player with 'X' has won the game\n";
     }
     else
-        cout<<"\n\tGAME DRAW!!!\n\t";
+        cout<<"\n\tGAME DRAW!!!\n";
+    system("pause");
+    return 0;
 } 
