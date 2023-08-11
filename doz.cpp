@@ -3,6 +3,7 @@
 //Importing the inbuild libraries in CPP
 #include <iostream>
 #include <stdlib.h>
+
 using namespace std;
 //Array for the board
 char board[3][3] = {{'1','2','3'},{'4','5','6'},{'7','8','9'}};
@@ -18,16 +19,14 @@ void display_board(){
 
     //Rander Game Board LAYOUT
 
-    cout<<"PLAYER - 1 [X]t PLAYER - 2 [O]nn";
-    cout<<"tt     |     |     n";
-    cout<<"tt  "<<board[0][0]<<"  | "<<board[0][1]<<"  |  "<<board[0][2]<<" n";
-    cout<<"tt_____|_____|_____n";
-    cout<<"tt     |     |     n";
-    cout<<"tt  "<<board[1][0]<<"  | "<<board[1][1]<<"  |  "<<board[1][2]<<" n";
-    cout<<"tt_____|_____|_____n";
-    cout<<"tt     |     |     n";
-    cout<<"tt  "<<board[2][0]<<"  | "<<board[2][1]<<"  |  "<<board[2][2]<<" n";
-    cout<<"tt     |     |     n";
+    // system("clear");
+    cout<<"\t----------" << endl;
+    cout<<"\t"<<board[0][0]<<"  | "<<board[0][1]<<"  |  "<<board[0][2] << endl;
+    cout<<"\t----------" << endl;
+    cout<<"\t"<<board[1][0]<<"  | "<<board[1][1]<<"  |  "<<board[1][2] << endl;
+    cout<<"\t----------"<< endl;
+    cout<<"\t"<<board[2][0]<<"  | "<<board[2][1]<<"  |  "<<board[2][2] << endl;
+    cout << "\t----------"<< endl;
 }
 
 //Function to get the player input and update the board
@@ -76,7 +75,7 @@ void player_turn(){
         player_turn();
     }
     /* Ends */
-    display_board();
+    
 }
 
 //Function to get the game status e.g. GAME WON, GAME DRAW GAME IN CONTINUE MODE
@@ -107,19 +106,19 @@ bool gameover(){
 
 int main()
 {
-    cout<<"tttT I C K -- T A C -- T O E -- G A M Ettt";
-    cout<<"nttttFOR 2 PLAYERSnttt";
+    cout<<"\tT I C K -- T A C -- T O E -- G A M E\n";
+    cout<<"\tFOR 2 PLAYERS\n";
     while(gameover()){
         display_board();
         player_turn();
         gameover();
     }
     if(turn == 'X' && draw == false){
-        cout<<"nnCongratulations!Player with 'X' has won the game";
+        cout<<"\n\tCongratulations!Player with 'X' has won the game";
     }
     else if(turn == 'O' && draw == false){
-        cout<<"nnCongratulations!Player with 'O' has won the game";
+        cout<<"\n\tCongratulations!Player with 'O' has won the game";
     }
     else
-        cout<<"nnGAME DRAW!!!nn";
+        cout<<"\n\tGAME DRAW!!!\n\t";
 } 
