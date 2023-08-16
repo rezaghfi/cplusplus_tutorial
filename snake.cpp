@@ -5,8 +5,8 @@ using namespace std;
 
 // global variable
 bool gameOver;
-const int width = 40;  // عرض زمین
-const int length = 40; // طول زمین
+const int width = 20;  // عرض زمین
+const int length = 20; // طول زمین
 int headX, headY;      // مختصات سر
 int fruitX, fruitY;    // مختصات غذا
 char food = 15;
@@ -133,7 +133,7 @@ void logic()
   }
 
   // اتمام بازی
-  if (headX == 0 || headX == width || headY == length || headY == 0)
+  if (headX == -1 || headX == width+1 || headY == length+1 || headY == -1)
   {
     gameOver = true;
     cout << "--------GAMEOVER--------";
@@ -164,7 +164,7 @@ int main()
     drawMap();
     input();
     logic();
-    Sleep(200);
+    Sleep(800);
   }
   system("pause");
   return 0;
